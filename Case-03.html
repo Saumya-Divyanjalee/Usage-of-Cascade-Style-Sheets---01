@@ -1,93 +1,125 @@
-<!DOCTYPEhtml>
-<html>
-<head>
-    <style>
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <style>
 
-        section{
-            position: relative;
-            width: 100vw;
-            height: 100vh;
-        }
+      section{
+       height: 500vh;
+       width: 100%;
+      }
+      #cir1{
+       border: 30px solid darkgray;
+       height: 400px;
+       width: 400px;
+       border-radius: 100%;
+       position: fixed;
+       margin: auto;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
+      }
+      #cir1>#cir2{
+       border: 18px solid red;
+       height: 390px;
+       width: 390px;
+       border-radius: 100%;
+       position: fixed;
+       margin: auto;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
 
-        section>#div1{
+      }
 
-            border: 50px solid darkgray;
-            width: 300px;
-            height: 300px;
-            border-radius: 100%;
-            margin: auto;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-        }
+      #hello{
+       background: purple;
+       border: 5px solid purple;
+       position: absolute;
+       margin: auto;
+       height: 390px;
+       width: 390px;
+       border-radius: 100%;
+       top: 0;
+       right: 0;
+       bottom: 0;
+       left: 0;
 
-        section>#div1>#div2{
-            border: 25px solid red;
-            width: 299px;
-            height: 299px;
-            border-radius: 100%;
-            margin: auto;
-            position:fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+      }
+      #hello>div{
+       color: white;
+       font-weight: bold;
+       font-size: 30px;
+       position: absolute;
+       text-align: center;
+       top:195px;
+       left: 0;
+       right: 0;
+      }
 
+      #welcome{
+       background: steelblue;
+       border: 5px solid steelblue;
+       position: absolute;
+       margin: auto;
+       height: 390px;
+       width: 390px;
+       border-radius: 100%;
+       top: 250vh;
+       right: 0;
+       bottom: 0;
+       left: 0;
+      }
 
-        }
+      #welcome>div{
+       color: white;
+       font-weight: bold;
+       font-size: 30px;
+       position: absolute;
+       text-align: center;
+       top:195px;
+       left: 0;
+       right: 0;
+      }
 
-        section>#div1>#div2>#div3{
-            position: relative;
-            background: purple;
-            height: 298px;
-            width: 298px;
-            border-radius: 100%;
-            margin: auto;
-            top: 50vh;
-            left: 0;
-            right: 0;
-            bottom: 0;
-        }
-
-        section>#div1>#div2>#div3>h1{
-            position: relative;
-            text-align: center;
-            margin: auto;
-            top: 149px;
-            color: white;
-
-        }
-
-        section>#div4{
-            background: deepskyblue;
-            color: white;
-            height: 298px;
-            width: 298px;
-            border-radius: 100%;
-            margin: auto;
-            position: relative;
-            top: 50vh;
-            left: 0;
-            right: 0;
-            bottom: 0;
-        }
-
-
-    </style>
-</head>
-<body>
+      #institute{
+       background: palevioletred;
+       border: 5px solid palevioletred;
+       position: absolute;
+       margin: auto;
+       height: 390px;
+       width: 390px;
+       border-radius: 100%;
+       top:350vh;
+       right: 0;
+       bottom: 0;
+       left: 0;
+      }
 
 
+      #institute>div{
+       color: white;
+       font-weight: bold;
+       font-size: 30px;
+       position: absolute;
+       text-align: center;
+       top:195px;
+       left: 0;
+       right: 0;
 
+      }
 
-<section>
-    <div id="div1"><div id ="div2"><div id="div3"><h1>Hello</h1></div>
-        <div id="div4"><h1>Welcome TO</h1></div>
-        <div id="div5"><h1>Institute of Software Engineering</h1></div></div></div>
+     </style>
+ </head>
 
-</section>
+ <body>
+ <section>
+ <div id="cir1"><div id="cir2"></div></div>
+ <div id="hello"><div>Hello</div></div>
+ <div id="welcome"><div>Welcome To</div></div>
+  <div id="institute"><div>Institute of Software Engineering</div></div>
+ </section>
 
-</body>
-</html>
+ </body>
+ </html>
