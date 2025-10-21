@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case-4</title>
+    <style>
+        section{
+            width: 100%;
+            height: 1000px;
+            position: relative;
+            justify-content: center;
+        }
+        section:first-child{
+            background-color: deepskyblue;
+
+        }
+        section:nth-child(2){
+            background-color: lightcoral;
+
+        }
+        section:nth-child(3){
+            background-color: lime;
+
+        }
+        section:nth-child(4){
+            background-color: mediumpurple;
+
+        }
+        div{
+            width: 100%;
+            height: 50px;
+            background-color: black;
+            font-weight: bold;
+            top: 0;
+            position: sticky;
+            font-size: x-large;
+            color: white;
+        }
+        section>p{
+            font-weight: bolder;
+            font-size: xxx-large;
+            color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <div>card-1</div>
+        <p>Hello</p>
+    </section>
+    <section><div>card-2</div><p>How</p></section>
+    <section><div>card-3</div><p>Are</p></section>
+    <section><div>card-4</div><p>You!</p></section>
+</main>
+</body>
+</html>
